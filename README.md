@@ -129,8 +129,6 @@ npm install
 npm start
 ```
 
-````
-
 ### Frontend
 
 ```bash
@@ -183,4 +181,3 @@ VITE_BASE_URL=http://localhost:3000
 > A production-ready, socket-enabled ride-hailing app with complete passenger and captain workflow built for modern real-world applications.
 
 ---
-````
