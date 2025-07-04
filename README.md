@@ -88,6 +88,13 @@ _Captain enters passenger OTP to start the ride._
 
 ---
 
+## 🗂️ ERD (Entity Relationship Diagram)
+
+![ERD Diagram](images/erd.png)  
+_This diagram shows the relationship between Users, Captains, and Rides._
+
+---
+
 ## ⚙️ Tech Stack
 
 | Layer        | Technologies                              |
