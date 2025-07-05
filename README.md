@@ -67,20 +67,15 @@ _Screen displayed to the user after requesting a ride, showing that the system i
 
 #### 10. OTP Screen
 
-![OTP Screen](images/otp_screen1.png)  
-_OTP displayed to share with captain to start the ride._
-
-#### 11. Navigation
-
 ![Navigation](images/navigation2.png)  
 _Map view showing pickup to destination route._
 
-#### 12. Ongoing Ride
+#### 11. Ongoing Ride
 
 ![Ongoing Ride](images/user_ongoing.png)  
 _Screen displayed to the user while the ride is in progress. It shows ride status as **Ongoing** and includes a payment button that becomes active once the ride is completed._
 
-#### 13. User Ride History
+#### 12. User Ride History
 
 ![User Ride History](images/user_ride_history.png)  
 _Screen where the user can view a history of all their booked rides, including captain name, pickup and drop-off locations, fare amounts, and ride dates._
@@ -89,32 +84,32 @@ _Screen where the user can view a history of all their booked rides, including c
 
 ### 🚗 Captain Flow
 
-#### 14. Captain Dashboard
+#### 13. Captain Dashboard
 
 ![Captain Home](images/captain_home.png)  
 _Main screen for captains with ride stats and actions._
 
-#### 15. Ride Request
+#### 14. Ride Request
 
 ![Ride Request](images/ride_request.png)  
 _Incoming request shown to captains with location and fare info._
 
-#### 16. OTP Entry
+#### 15. OTP Entry
 
 ![OTP Entry](images/otp_entry.png)  
 _Captain enters passenger OTP to start the ride._
 
-#### 17. Ride Completion
+#### 16. Ride Completion
 
 ![Ride Complete](images/ride_complete1.png)  
 _Screen displayed to the captain for completing the ride._
 
-#### 18. Finish Ride
+#### 17. Finish Ride
 
 ![Finish Ride](images/finish_ride.png)  
 _Screen displayed to the captain showing user name, pickup location, destination, fare amount, and a **Finish Ride** button._
 
-#### 19. Captain Ride History
+#### 18. Captain Ride History
 
 ![Captain Ride History](images/captain_ride_history.png)  
 _Screen where the captain can view a list of all previously completed rides, including user names, pickup and drop-off locations, fare amounts, and ride dates._
