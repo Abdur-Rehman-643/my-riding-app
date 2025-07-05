@@ -43,10 +43,11 @@ const FinishRide = (props) => {
             alt=""
           />
           <h2 className="text-lg font-medium">
-            {props.ride?.user.fullname.firstname}
+            {props.ride?.user.fullname.firstname}{" "}
+            {props.ride?.user.fullname.lastname}
           </h2>
         </div>
-        <h5 className="text-lg font-semibold">15 KM</h5>
+        <h5 className="text-lg font-semibold">6 KM</h5>
       </div>
       <div className="flex gap-2 justify-between flex-col items-center">
         <div className="w-full mt-5">

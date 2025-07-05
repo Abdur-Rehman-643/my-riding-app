@@ -4,6 +4,12 @@ A **real-time ride-booking platform** built with **React.js** for the frontend a
 
 ---
 
+## 📽️ Project Demo
+
+[![Watch the demo](https://drive.google.com/file/d/1s2WZ-sEmx1fFzZ8FKdVB2NzCq0y3PYV_/view?usp=sharing)](https://drive.google.com/file/d/1s2WZ-sEmx1fFzZ8FKdVB2NzCq0y3PYV_/view?usp=sharing)
+
+---
+
 ## 📱 Screens Overview
 
 ### 🧑‍💼 Authentication
@@ -60,31 +66,31 @@ _OTP displayed to share with captain to start the ride._
 #### 10. Navigation
 
 ![Navigation](images/navigation.png)  
-_Live map view showing pickup to destination route._
-
-#### 11. Ride Completion
-
-![Ride Complete](images/ride_complete.png)  
-_Summary screen shown after the ride ends._
+_Map view showing pickup to destination route._
 
 ---
 
 ### 🚗 Captain Flow
 
-#### 12. Captain Dashboard
+#### 11. Captain Dashboard
 
 ![Captain Home](images/captain_home.png)  
 _Main screen for captains with ride stats and actions._
 
-#### 13. Ride Request
+#### 12. Ride Request
 
 ![Ride Request](images/ride_request.png)  
 _Incoming request shown to captains with location and fare info._
 
-#### 14. OTP Entry
+#### 13. OTP Entry
 
 ![OTP Entry](images/otp_entry.png)  
 _Captain enters passenger OTP to start the ride._
+
+#### 14. Ride Completion
+
+![Ride Complete](images/ride_complete.png)  
+_Screen displayed to the captain for completing the ride._
 
 ---
 
