@@ -50,4 +50,10 @@ router.get(
     userController.logoutUser
 );
 
+router.get(
+    '/ride-history',
+    authMiddleware.authUser,
+    userController.getRideHistory
+);
+
 module.exports = router;

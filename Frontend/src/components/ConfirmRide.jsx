@@ -11,7 +11,15 @@ const ConfirmRide = (props) => {
       >
         <i className="text-3xl text-gray-200 ri-arrow-down-wide-line"></i>
       </h5>
-      <h3 className="text-2xl font-semibold mb-5">Confirm your Ride</h3>
+      <h3 className="text-2xl font-semibold mb-2 text-center">
+        Confirm your Ride
+      </h3>
+
+      <div className="flex justify-center mb-4">
+        <span className="px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800 shadow-sm">
+          Status: Pending...
+        </span>
+      </div>
 
       <div className="flex gap-2 justify-between flex-col items-center">
         <img

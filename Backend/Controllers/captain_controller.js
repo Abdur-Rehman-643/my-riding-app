@@ -1,5 +1,6 @@
 const captainModel = require('../Models/captain_model');
 const captainService = require('../Services/captain_service');
+const Ride = require('../Models/ride_model');
 const blackListTokenModel = require('../Models/black_list_token_model');
 const { validationResult } = require('express-validator');
 
@@ -74,4 +75,17 @@ module.exports.logoutCaptain = async (req, res, next) => {
     }
 
     res.status(200).json({ message: 'Logout successful' });
+};
+
+module.exports.getRideHistory = async (req, res, next) => {
+    try {
+        const captainId = req.captain._id;
+        const rides = await Ride.find({ captain: captainId })
+            .populate('user', 'fullname email')
+            .sort({ _id: -1 });
+        res.status(200).json({ rides });
+    } catch (error) {
+        console.error('Error fetching ride history:', error);
+        res.status(500).json({ message: 'Failed to fetch ride history' });
+    }
 };

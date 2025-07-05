@@ -1,5 +1,6 @@
 const userModel = require('../Models/user_model');
 const userService = require('../Services/user_service');
+const Ride = require('../Models/ride_model');
 const blackListTokenModel = require('../Models/black_list_token_model');
 const { validationResult } = require('express-validator');
 
@@ -73,4 +74,22 @@ module.exports.logoutUser = async (req, res, next) => {
     }
 
     res.status(200).json({ message: 'Logged out' });
+};
+
+module.exports.getRideHistory = async (req, res, next) => {
+    try {
+        const userId = req.user._id;
+        console.log("Fetching rides for user:", userId); // 🐞 DEBUG
+
+        const rides = await Ride.find({ user: userId })
+            .populate('captain', 'fullname email vehicle')
+            .sort({ _id: -1 });
+
+        console.log("Found rides:", rides.length); // 🐞 DEBUG
+
+        res.status(200).json({ rides });
+    } catch (error) {
+        console.error('Error fetching ride history:', error);
+        res.status(500).json({ message: 'Failed to fetch ride history' });
+    }
 };

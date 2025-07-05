@@ -18,7 +18,12 @@ const WaitingForDriver = (props) => {
           src="https://swyft.pl/wp-content/uploads/2023/05/how-many-people-can-a-uberx-take.jpg"
           alt=""
         />
-        <div className="text-right">
+        <div className="text-right space-y-1">
+          {/* Status Badge */}
+          <span className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-green-100 text-green-800 shadow">
+            Status: Accepted
+          </span>
+
           <h2 className="text-lg font-medium capitalize">
             {props.ride?.captain.fullname.firstname}
           </h2>

@@ -106,12 +106,20 @@ const CaptainHome = () => {
           My Riding App
         </div>
 
-        <Link
-          to="/captain/logout"
-          className=" h-10 w-10 bg-white flex items-center justify-center rounded-full"
-        >
-          <i className="text-lg font-medium ri-logout-box-r-line"></i>
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link
+            to="/captain/ride-history"
+            className="h-10 w-10 bg-white flex items-center justify-center rounded-full shadow-md"
+          >
+            <i className="text-lg font-medium ri-history-line"></i>
+          </Link>
+          <Link
+            to="/captain/logout"
+            className="h-10 w-10 bg-white flex items-center justify-center rounded-full shadow-md"
+          >
+            <i className="text-lg font-medium ri-logout-box-r-line"></i>
+          </Link>
+        </div>
       </div>
       <div className="h-3/5">
         <img

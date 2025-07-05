@@ -22,7 +22,7 @@ const Riding = () => {
       >
         <i className="text-lg font-medium ri-home-5-line"></i>
       </Link>
-      <div className="h-3/5">
+      <div className="h-2.8/5">
         <img
           className="h-full w-full object-cover"
           src="https://miro.medium.com/v2/resize:fit:1400/0*gwMx05pqII5hbfmX.gif"
@@ -31,11 +31,17 @@ const Riding = () => {
       </div>
       <div className="h-1/2 p-4">
         <div className="flex items-center justify-between">
-          <img
-            className="h-12"
-            src="https://swyft.pl/wp-content/uploads/2023/05/how-many-people-can-a-uberx-take.jpg"
-            alt=""
-          />
+          <div className="flex flex-col items-center">
+            <img
+              className="h-12"
+              src="https://swyft.pl/wp-content/uploads/2023/05/how-many-people-can-a-uberx-take.jpg"
+              alt=""
+            />
+            <span className="mt-1 text-xs bg-yellow-100 text-yellow-800 font-semibold px-2 py-0.5 rounded-full">
+              Status: Ongoing
+            </span>
+          </div>
+
           <div className="text-right">
             <h2 className="text-lg font-medium capitalize">
               {ride?.captain.fullname.firstname}

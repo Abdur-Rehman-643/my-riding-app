@@ -229,12 +229,32 @@ const Home = () => {
           <div className="w-32 text-xl font-bold text-gray-800 tracking-wide">
             My Riding App
           </div>
-          <Link
+          <div className="flex items-center gap-3">
+            <Link
+              to="/user/ride-history"
+              className="h-10 w-10 bg-white flex items-center justify-center rounded-full shadow-md cursor-pointer"
+            >
+              <i className="text-lg font-medium ri-history-line"></i>
+            </Link>
+            <Link
+              to="/user/logout"
+              className="h-10 w-10 bg-white flex items-center justify-center rounded-full shadow-md cursor-pointer"
+            >
+              <i className="text-lg font-medium ri-logout-box-r-line"></i>
+            </Link>
+          </div>
+          {/* <Link
             to="/user/logout"
             className="h-10 w-10 bg-white flex items-center justify-center rounded-full shadow-md cursor-pointer"
           >
             <i className="text-lg font-medium ri-logout-box-r-line"></i>
           </Link>
+          <Link
+            to="/user/logout"
+            className="h-10 w-10 bg-white flex items-center justify-center rounded-full shadow-md cursor-pointer"
+          >
+            <i className="text-lg font-medium ri-logout-box-r-line"></i>
+          </Link> */}
         </div>
 
         {/* Background Image */}
