@@ -1,6 +1,29 @@
 # 🚖 My Riding App
 
-A **real-time ride-booking platform** built with **React.js** for the frontend and **Node.js** for the backend. The app allows passengers to find nearby captains (drivers), select a vehicle, start a ride using OTP, and complete it securely.
+---
+
+## 🚀 Project Overview
+
+A **real-time ride-booking platform** built with **React.js** for the frontend and **Node.js** for the backend.  
+The app allows **passengers to find nearby captains (drivers)**, select a vehicle, **start the ride using an OTP**, and **complete it securely**.
+
+### 🧾 Ride Status Flow
+
+Each ride moves through the following status stages:
+
+- `pending` – Ride requested, waiting for captain to accept
+- `accepted` – Captain accepted the request
+- `ongoing` – Ride in progress (started via OTP verification)
+- `completed` – Ride finished by the captain
+- `cancelled` – Ride cancelled by user or captain
+
+✅ **Passengers must share a system-generated OTP with the captain** to begin the ride.  
+This ensures secure ride verification and prevents unauthorized trip starts.
+
+### 📖 Ride History & Tracking
+
+- **Users and captains** can both **view detailed ride history**, including locations, fare, and status.
+- **Live ride status** is shown in real-time across all screens, keeping both parties informed throughout the journey.
 
 ---
 
