@@ -65,7 +65,7 @@ _OTP displayed to share with captain to start the ride._
 
 #### 10. Navigation
 
-![Navigation](images/navigation.png)  
+![Navigation](images/navigation1.png)  
 _Map view showing pickup to destination route._
 
 ---
@@ -89,7 +89,7 @@ _Captain enters passenger OTP to start the ride._
 
 #### 14. Ride Completion
 
-![Ride Complete](images/ride_complete.png)  
+![Ride Complete](images/ride_complete1.png)  
 _Screen displayed to the captain for completing the ride._
 
 ---
