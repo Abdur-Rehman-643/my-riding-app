@@ -6,11 +6,13 @@ A **real-time ride-booking platform** built with **React.js** for the frontend a
 
 ## 📽️ Project Demo
 
-[![Watch the demo](https://drive.google.com/file/d/1s2WZ-sEmx1fFzZ8FKdVB2NzCq0y3PYV_/view?usp=sharing)](https://drive.google.com/file/d/1s2WZ-sEmx1fFzZ8FKdVB2NzCq0y3PYV_/view?usp=sharing)
+[![Watch the demo](https://drive.google.com/file/d/1fFoS8gFnAle6Jceq5UFlwfGFFUx60pYs/view?usp=sharing)](https://drive.google.com/file/d/1fFoS8gFnAle6Jceq5UFlwfGFFUx60pYs/view?usp=sharing)
 
 ---
 
 ## 📱 Screens Overview
+
+---
 
 ### 🧑‍💼 Authentication
 
@@ -55,42 +57,67 @@ _Choose from Moto, Auto, or Bike with ETA and fare._
 
 #### 8. Ride Confirmation
 
-![Ride Confirm](images/ride_confirm.png)  
+![Ride Confirm](images/ride_confirm1.png)  
 _Confirm ride details before requesting captain._
 
-#### 9. OTP Screen
+#### 9. Looking for Rider
 
-![OTP Screen](images/otp_screen.png)  
+![Looking for Rider](images/driver_looking.png)  
+_Screen displayed to the user after requesting a ride, showing that the system is searching for an available captain._
+
+#### 10. OTP Screen
+
+![OTP Screen](images/otp_screen1.png)  
 _OTP displayed to share with captain to start the ride._
 
-#### 10. Navigation
+#### 11. Navigation
 
-![Navigation](images/navigation1.png)  
+![Navigation](images/navigation2.png)  
 _Map view showing pickup to destination route._
+
+#### 12. Ongoing Ride
+
+![Ongoing Ride](images/user_ongoing.png)  
+_Screen displayed to the user while the ride is in progress. It shows ride status as **Ongoing** and includes a payment button that becomes active once the ride is completed._
+
+#### 13. User Ride History
+
+![User Ride History](images/user_ride_history.png)  
+_Screen where the user can view a history of all their booked rides, including captain name, pickup and drop-off locations, fare amounts, and ride dates._
 
 ---
 
 ### 🚗 Captain Flow
 
-#### 11. Captain Dashboard
+#### 14. Captain Dashboard
 
 ![Captain Home](images/captain_home.png)  
 _Main screen for captains with ride stats and actions._
 
-#### 12. Ride Request
+#### 15. Ride Request
 
 ![Ride Request](images/ride_request.png)  
 _Incoming request shown to captains with location and fare info._
 
-#### 13. OTP Entry
+#### 16. OTP Entry
 
 ![OTP Entry](images/otp_entry.png)  
 _Captain enters passenger OTP to start the ride._
 
-#### 14. Ride Completion
+#### 17. Ride Completion
 
 ![Ride Complete](images/ride_complete1.png)  
 _Screen displayed to the captain for completing the ride._
+
+#### 18. Finish Ride
+
+![Finish Ride](images/finish_ride.png)  
+_Screen displayed to the captain showing user name, pickup location, destination, fare amount, and a **Finish Ride** button._
+
+#### 19. Captain Ride History
+
+![Captain Ride History](images/captain_ride_history.png)  
+_Screen where the captain can view a list of all previously completed rides, including user names, pickup and drop-off locations, fare amounts, and ride dates._
 
 ---
 
